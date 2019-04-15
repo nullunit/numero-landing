@@ -260,7 +260,8 @@ footer {
     margin: 0; }
 
   header {
-    position: relative; }
+    position: relative;
+    padding: 24px 36px; }
     header .logo {
       width: 250px; }
     header nav .link-button {
