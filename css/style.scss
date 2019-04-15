@@ -3,6 +3,7 @@ $color-white:     #ffffff;
 $color-lightgrey: #E0E0E0;
 $color-black:     #000000;
 $color-blue:      #4E73B9;
+$color-darkblue:  #2F57A3;
 $color-lightblue: #ECF2FF;
 $color-yellow:    #F2C617;
 $color-red:       #EA472C;
@@ -149,7 +150,7 @@ button, .button {
   text-align: center;
   cursor: pointer;
   transition: .1s all ease-in-out;
-  &:hover { background-color: $color-blue; }
+  &:hover { background-color: $color-darkblue; }
   &:active { background-color: $color-black; }
 }
 
@@ -183,7 +184,18 @@ header {
       transition: .1s color ease-in-out;
       &:hover { color: $color-black; }
     }
-    .button { display: inline-block; background-color: $color-yellow; color: $color-black; font-size:14px; line-height: 16px; padding: 8px 32px; }
+    .button {
+        display: inline-block;
+        background-color: $color-yellow;
+        color: $color-black;
+        font-size:14px;
+        line-height: 16px;
+        padding: 8px 32px;
+        &:hover {
+            background-color: $color-black;
+            color: $color-white;
+        }
+    }
   }
 
 

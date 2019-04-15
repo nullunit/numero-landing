@@ -155,7 +155,7 @@ button, .button {
   cursor: pointer;
   transition: .1s all ease-in-out; }
   button:hover, .button:hover {
-    background-color: #4E73B9; }
+    background-color: #2F57A3; }
   button:active, .button:active {
     background-color: #000000; }
 
@@ -193,6 +193,9 @@ header {
       font-size: 14px;
       line-height: 16px;
       padding: 8px 32px; }
+      header nav .button:hover {
+        background-color: #000000;
+        color: #ffffff; }
 
 .theme1 {
   /* White */
