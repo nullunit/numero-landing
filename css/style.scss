@@ -168,7 +168,7 @@ header {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   .logo {
-    width: 110px;
+    width: 140px;
     background: url(../../img/logo.svg) left center no-repeat;
   }
   nav {
@@ -223,10 +223,10 @@ header {
           align-items: center;
           margin: 40px 0;
           img {
-              margin: 0 20px;
-              &.stripe { width: 65px;}
-              &.plaid { width: 93px; }
-              &.ga { width: 107px; }
+              margin: 0 12px;
+              &.stripe { width: 58px;}
+              &.plaid { width: 83px; }
+              &.ga { width: 95px; }
           }
       }
       img {

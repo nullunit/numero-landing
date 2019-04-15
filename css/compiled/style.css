@@ -171,7 +171,7 @@ header {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); }
   header .logo {
-    width: 110px;
+    width: 140px;
     background: url(../../img/logo.svg) left center no-repeat; }
   header nav {
     display: flex;
@@ -220,13 +220,13 @@ header {
       align-items: center;
       margin: 40px 0; }
       .hero .callout-box .logo-box img {
-        margin: 0 20px; }
+        margin: 0 12px; }
         .hero .callout-box .logo-box img.stripe {
-          width: 65px; }
+          width: 58px; }
         .hero .callout-box .logo-box img.plaid {
-          width: 93px; }
+          width: 83px; }
         .hero .callout-box .logo-box img.ga {
-          width: 107px; }
+          width: 95px; }
     .hero .callout-box img {
       margin: 0 auto; }
       .hero .callout-box img.gsheets {
